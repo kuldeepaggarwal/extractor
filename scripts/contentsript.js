@@ -1,6 +1,5 @@
 (function() {
   var getPageContent = function() {
-    console.log("searching page content")
     var anchors = document.getElementsByTagName("a"),
         response = [];
 

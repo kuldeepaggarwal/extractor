@@ -23,7 +23,7 @@
         "http://*/*"
       ],
       "js": [
-        "scripts/contentsripts.js"
+        "scripts/contentsript.js"
       ],
       "css": [
         "stylesheets/contentsripts.css"
@@ -32,6 +32,11 @@
       "all_frames": false
     }
   ],
+  "background": {
+    "scripts": [
+      "scripts/backgroundscript.js"
+    ]
+  },
   "permissions": [
     "tabs",
     "history",
